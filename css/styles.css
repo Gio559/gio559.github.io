@@ -10,6 +10,12 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/* Prevent oversized text/elements from breaking layout */
+h1, h2, h3, p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
